@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cohesie</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header" onclick="HTMLtoJS()">
+      Cohesie
+    </div>
+
+    <div class="Wrapper">
+      <div class="Linkerstuk">
+        <div class="Midden-Bar">
+          <div class="Midden-Midden-Bar">
+            <div class="OutcomeBar">
+              <input class="outcomeVar" id="outcomeVar" type="text" tabindex="2" minlength="1" required>
+              =
+              <input class="outcomeVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+              <input class="outcomeVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+            </div>
+            <div class="InputBar">
+              <input class="inputVar" type="text" tabindex="2" minlength="1" required>
+              =
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+            </div>
+            <div class="InputBar">
+              <input class="inputVar" type="text" tabindex="2" minlength="1" required>
+              =
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+            </div>
+            <div class="InputBar" id="idToClone">
+              <input class="inputVar" type="text" tabindex="2" minlength="1" required>
+              =
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+              <input class="inputVal" type="text" tabindex="2" minlength="1" maxlength="4" required>
+            </div>
+
+          </div>
+          <div class="Midden-Onder-Bar">
+            <div class="Add-Input" onclick="AddRow()">
+
+            </div>
+          </div>
+        </div>
+        <div class="Rechter-Bar">
+          <div class="Add-Bar" onclick="AddColumn()">
+
+          </div>
+        </div>
+      </div>
+      <div class="Rechterstuk">
+        <div id="recht-boven-bar">
+          Druk op cohesie om te beginnen.
+        </div>
+        <div id="rechts-midden-bar">
+
+        </div>
+      </div>
+
+    </div>
+    <script src="cohesie.js" charset="utf-8"></script>
+
+  </body>
+</html>
